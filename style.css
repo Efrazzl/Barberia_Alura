@@ -1,0 +1,194 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px;
+}
+
+.caja{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ae8625;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom-width: 60px;
+
+    border-radius: 20px;
+}
+
+.productos li:hover{
+    border-color: #ae8625;
+}
+
+.productos li:active{
+    border-color: #FFD700;
+}
+
+.productos h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.productos li:hover h2{
+    font-size: 28px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+
+}
+
+.producto-precio{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 50px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 22px;
+    margin: 0 0 12px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 22px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: #bf9430;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover {
+    background: #ae8625;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+
+.principal strong{
+    font-weight: bold;
+}
+
+
+.principal em{
+    font-style: italic;
+}
+
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+
+.imagenDiferenciales{
+    width: 60%;
+}
